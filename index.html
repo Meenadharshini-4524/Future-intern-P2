@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <h5><span>M</span>eena.</h5>
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick = "closemenu()"></i>
+                </ul>
+                <i id="bar" class="fa-solid fa-bars" onclick = "openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>FullStack Developer</p>
+                <h2>Hi, I'm <span>Meena <br>dharshini.</span> <br> Passionate in web <br>development</h2>
+                <button class="hire-btn">Hire</button>
+                <button class="cont-btn">contact me</button>
+            </div>
+        </div>
+    </div>
+    <!-- --------about ------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                  <div class="about-col-1">
+                    <img src="images/user1.png" alt="My photo">
+                  </div>
+                  <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Hi, my name is Meenadharshini and I am from Dindigul,Tamilnadu. I completed my Schooling from DHSS in Chinalaptti.I recently graduated with a degree in Mathematics and I am looking for a job role in Full Stack|Front-End|back-End Developers. My Key skills are HTML,CSS,javascript,Bootstrap,ReactJs,MongoDB,Core Java. Passionate in the web development field.</p>
+                 
+                    <div class="tab-titles">
+                    <p class="tab-links active-link" onclick = "opentab('skills')" >Skills</p>
+                    <p class="tab-links" onclick = "opentab('education')">Education</p>
+                    <p class="tab-links" onclick = "opentab('experience')">Exerprience</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML, CSS , Bootstrap, Javascript </span> <br>FrontEnd Developing</li>
+                        <li><span>Java,ReactJs</span> <br>BackEnd Developing</li>
+                        <li><span>Mysql,MonogoDB</span><br>Database Mangement</li>
+                    </ul>
+                   </div>
+
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>HSC-2020</span> <br>Cum.per:81 <br>Devangar Higher Secondary School,Chinnalapatti.</li>
+                        <li><span>SSLC-2019</span> <br>Cum.per:75 <br>Devangar Higher Secondary School,Chinnalapatti.</li>
+                        <li><span>B.Sc Mathematics-2021-2024</span> <br>CGPA:7.0/10.0<br>Sourashtra College, Madurai</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>Currently improving my web development skills which includes HTML,CSS,JavaScript and related frameworks.</li>
+                        <li>Learning the Java Full Stack Developer course in the offline class. And Practicing these languages to develop my skills in the web development.</li>
+                        <li>Developing a Personal Porfolio Website to showcase all my skills , projects and experiences.</li>
+                    </ul>
+                   </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- -------------------projects--------------------- -->
+         <div id="project">
+            <h1 class="sub-title" id="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img  src="images/Work1.png" alt="">
+                    <div class="layer">
+                        <h1>Landing Page</h1>
+                        <p>View Website</p>
+                        <a href="https://meenadharshini-4524.github.io/Future-intern-p1/"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img  src="images/work3.png" alt="">
+                    <div class="layer">
+                        <h1>Temperature Convertor</h1>
+                        <p>View Website</p>
+                       <a href="https://meenadharshini-4524.github.io/future-intern-p3/"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img  src="images/work2.png" alt="">
+                    <div class="layer">
+                        <h1>Calculator</h1>
+                        <p>View Website</p>
+                        <a href="https://meenadharshini-4524.github.io/future-intern-P4/"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img  src="images/work4.png" alt="">
+                    <div class="layer">
+                        <h1>ToDO App</h1>
+                        <p>View Website</p>
+                        <a href="https://meenadharshini-4524.github.io/future-intern-p5/"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+         </div>
+         <!-- -----------contact------------ -->
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> meenadharshiniks@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> 91-8610972533</p>
+                   
+                    <div class="social-icons">
+                        <a href=""><i class="fa-regular fa-envelope"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" class="submit-btn">Download CV</a>
+                </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="Email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" id=""></textarea>
+                            <button type="submit" class="submit-btn">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright@ Meenadharshini.</p>
+            </div>
+         </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+             
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("side-menu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+     <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzMCCAUB2LOg0IgZvFdQG3J87Ieiimpe224DLKrRk4rtbYXeoLKGvUEOrbXATuEDrdq/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        msg.innerHTML = "Message sent successfully!"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000);
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
